@@ -28,7 +28,8 @@ class LoginPage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.asset(
-              image.logoOrange,
+              image.logo,
+              height: 200,
             ),
             const Padding(
               padding: EdgeInsets.symmetric(horizontal: globalPadding.px_l),

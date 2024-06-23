@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:sutradharmobileapp/Constants.dart';
 
 Widget drawer() {
   return Drawer(
@@ -7,7 +8,7 @@ Widget drawer() {
     child: ListView(
       padding: const EdgeInsets.all(8),
       children: [
-        Image.asset("/assets/images/logo.png"),
+        Image.asset(image.logo),
         ListTile(
           title: const Text('Home'),
           onTap: () {
@@ -15,18 +16,18 @@ Widget drawer() {
           },
         ),
         ListTile(
-          title: const Text('Experiences'),
+          title: const Text('Categories'),
           onTap: () {
             // Navigate to another page when item is clicked
             null;
           },
         ),
-        // ListTile(
-        //   title: Text('Contact Us'),
-        //   onTap: () {
-        //     Get.to(Contactus());
-        //   },
-        // ),
+        ListTile(
+          title: Text('All Products'),
+          onTap: () {
+
+          },
+        ),
         ListTile(
           title: const Text('Cart'),
           onTap: () {

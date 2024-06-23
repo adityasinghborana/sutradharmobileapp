@@ -42,9 +42,9 @@ class MobileHeader extends StatelessWidget implements PreferredSizeWidget {
                     Get.toNamed('/home');
                   },
                   child: Image.asset(
-                    "../asset/images/logo.png",
-                    width: MediaQuery.of(context).size.width * 0.5,
-                    height: height * .05,
+                    image.logo,
+                    width: MediaQuery.of(context).size.width * 0.25,
+                    height: height * .1,
                   ),
                 ),
                 Flexible(flex: 3, child: Container()),

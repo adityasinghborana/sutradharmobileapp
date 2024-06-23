@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
 class themeColor {
-  static const Color colorBgPrimary = Color(0xFFFDFDFD);
-  static const Color colorBgSecondory = Color(0xFFf39505);
+  static const Color colorBgPrimary = Color(0xffFFF9F4);
+  static const Color colorBgSecondory = Color(0xFF799F94);
   static const Color colorTextPrimary = Color(0xff050A30);
   static const Color colorTextSecondry = Color(0xff9D9D9D);
-  static const Color colorLink = Color(0xFFf39505);
-  static const Color colorAccentPrimary = Color(0xFFf39505);
+  static const Color colorLink = Color(0xFF799F94);
+  static const Color colorAccentPrimary = Color(0xFF799F94);
   static const Color colorAccentSecondory = Color(0xffFF0101);
   static const Color colorWhite = Color(0xffFFFFFF);
   static const Color colorBorder = Color(0xffD1D1D1);
@@ -103,3 +103,5 @@ class Height {
   static const double heightl = 20;
   static const double heightxl = 30;
 }
+
+ const String baseurl ="https://www.sutradharfashion.com/wp-json/wc/v3/products?consumer_key=ck_79dcb84dcfcdf09c0efbe0c5bb5388499a92a0cb&consumer_secret=cs_7ffb1193de0c35b89f863452d1b60290f8e3e60f";

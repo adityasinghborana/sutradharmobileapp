@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
 import 'package:sutradharmobileapp/AuthModule/LoginModule/presentation/login_screen.dart';
 import 'package:sutradharmobileapp/AuthModule/SignupModule/presentation/signup_screen.dart';
-import 'package:sutradharmobileapp/ProductDetails/presentation/productscreen.dart';
+import 'package:sutradharmobileapp/productdetail/presentationlayer/productscreen.dart';
 import 'package:sutradharmobileapp/homepage/presentation/homepagescreen.dart';
 import 'Onboardingscreen/presentation/Onboarding_screen.dart'; // Splash screen widget
 

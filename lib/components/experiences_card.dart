@@ -25,7 +25,7 @@ class ExperiencesCard extends StatelessWidget {
           borderRadius: BorderRadius.circular(globalRadius.borderRadius_m),
           child: Stack(
             children: [
-              Image.asset(
+              Image.network(
                 imagePath,
                 width: double.infinity,
                 height: double.infinity,

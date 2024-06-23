@@ -21,9 +21,9 @@ class ExperiencesListview extends StatelessWidget {
                 Get.toNamed(AppRoutes.productdetails);
               },
               child: ExperiencesCard(
-                title: homePageController.experiences[index].title,
-                imagePath: homePageController.experiences[index].imagepath,
-                price: homePageController.experiences[index].location,
+                title: homePageController.experiences[index].name,
+                imagePath: homePageController.experiences[index].images[0].src,
+                price: homePageController.experiences[index].price,
               ));
         },
       ),

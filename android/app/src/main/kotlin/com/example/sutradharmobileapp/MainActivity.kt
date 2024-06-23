@@ -1,4 +1,4 @@
-package com.example.sutradharmobileapp
+package com.sutradharfashion.sutradharfashion
 
 import io.flutter.embedding.android.FlutterActivity
 
