@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "835709904513",
+    "project_id": "sutradharmobileapp",
+    "storage_bucket": "sutradharmobileapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835709904513:android:3b5df42a722722a24c8f80",
+        "android_client_info": {
+          "package_name": "com.sutradharfashion.sutradharfashion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835709904513-qa524h5q7cuqkas1vh6hrg6vhei0c3rt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sutradharfashion.sutradharfashion",
+            "certificate_hash": "c51e68aa124fd1a2db938f620a7ebea2b8ebbd85"
+          }
+        },
+        {
+          "client_id": "835709904513-hbklmm5lldovkj53a0fho3k3vc24ak2g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-Rs9ARfQBKgYYHCDYpzh_jpUoCkOv5Wg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835709904513-hbklmm5lldovkj53a0fho3k3vc24ak2g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
