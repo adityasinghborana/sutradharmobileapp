@@ -21,13 +21,14 @@ class HomePageScreen extends StatelessWidget {
         body: SingleChildScrollView(
           child: Column(children:[
             AuraUICarousel(images: [ "https://www.sutradharfashion.com/wp-content/uploads/2024/05/Aster-bow-top-and-ruffled-skirt-set_.jpg","https://www.sutradharfashion.com/wp-content/uploads/2024/05/Amber-kiss-side-pleated-shirt_2.jpg","https://www.sutradharfashion.com/wp-content/uploads/2024/05/Acacia-cut-work-co-ord-set_.jpg"
-            ], pageController: pageController),
+            ], pageController: pageController,duration: Duration(seconds: 5),),
 
 
-            HeadingwithButton(label: 'Featured',link: true,),ExperiencesListview(),
+            HeadingwithButton(label: 'Featured',link: true,),
+            //ProductListview(),
 
             SizedBox(height: 15,),HeadingwithButton(label: 'One That Makes You Look Good',link: false,),
-            SizedBox(height: 15,),ExperiencesListview(),]),
+            SizedBox(height: 15,),ProductListview(),]),
 
 
         ),

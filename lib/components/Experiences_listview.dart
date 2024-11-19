@@ -4,7 +4,7 @@ import 'package:sutradharmobileapp/components/experiences_card.dart';
 import 'package:sutradharmobileapp/homepage/presentation/homepagecontroller.dart';
 import 'package:sutradharmobileapp/routes.dart';
 
-class ExperiencesListview extends StatelessWidget {
+class ProductListview extends StatelessWidget {
   final HomePageController homePageController = Get.find();
 
   @override
