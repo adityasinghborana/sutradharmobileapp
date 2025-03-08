@@ -20,8 +20,7 @@ class globalPadding {
   static const double py_l = 22;
   static const double py_xl = 22;
   static const double py_xxl = 22;
-
-  static const double px_xs = 6; //6,12,16,24,26,36
+  static const double px_xs = 6;
   static const double px_sm = 12;
   static const double px_md = 16;
   static const double px_l = 24;
@@ -104,4 +103,4 @@ class Height {
   static const double heightxl = 30;
 }
 
- const String baseurl ="https://www.sutradharfashion.com/wp-json/wc/v3/products?consumer_key=ck_79dcb84dcfcdf09c0efbe0c5bb5388499a92a0cb&consumer_secret=cs_7ffb1193de0c35b89f863452d1b60290f8e3e60f";
+const String baseurl = "https://www.sutradharfashion.com";
