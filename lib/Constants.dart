@@ -69,6 +69,7 @@ class image {
   static const String Cat2 = 'asset/images/cat2.png';
   static const String Cat3 = 'asset/images/cat3.png';
   static const String Cat4 = 'asset/images/cat4.png';
+  static const String logoSvg = 'asset/images/logosvg.svg';
 }
 
 class staticText {

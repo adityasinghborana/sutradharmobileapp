@@ -1,6 +1,7 @@
 import 'package:get/get.dart';
 import 'package:sutradharmobileapp/AuthModule/LoginModule/presentation/login_screen.dart';
 import 'package:sutradharmobileapp/AuthModule/SignupModule/presentation/signup_screen.dart';
+import 'package:sutradharmobileapp/SplashScreen.dart';
 import 'package:sutradharmobileapp/productdetail/presentationlayer/productscreen.dart';
 import 'package:sutradharmobileapp/homepage/presentation/homepagescreen.dart';
 import 'Onboardingscreen/presentation/Onboarding_screen.dart'; // Splash screen widget
@@ -13,8 +14,13 @@ class AppRoutes {
   static const String home = '/home';
   static const String products = '/allproducts';
   static const String productdetails = '/products';
+  static const String splashScreen = '/splashscreen';
 
   static List<GetPage> routes = [
+    GetPage(
+      name: splashScreen,
+      page: () => SplashScreen(),
+    ),
     GetPage(
       name: onboarding,
       page: () => OnBoardingScreen(),
