@@ -17,10 +17,10 @@ class AppRoutes {
   static const String splashScreen = '/splashscreen';
 
   static List<GetPage> routes = [
-    GetPage(
-      name: splashScreen,
-      page: () => SplashScreen(),
-    ),
+    // GetPage(
+    //   name: splashScreen,
+    //   page: () => SplashScreen(),
+    // ),
     GetPage(
       name: onboarding,
       page: () => OnBoardingScreen(),
