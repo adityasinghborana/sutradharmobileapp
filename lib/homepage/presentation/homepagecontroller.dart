@@ -45,8 +45,8 @@ class HomePageController extends GetxController {
     try {
       print("itsworking");
       getAllProductsUseCase.execute().then((get) {
-        print(get.toList().map((e) => e.name));
-        experiences.assignAll(get);
+        //print(get.toList().map((e) => e.name));
+        //experiences.assignAll(get);
       });
     } catch (e) {
       print(e);

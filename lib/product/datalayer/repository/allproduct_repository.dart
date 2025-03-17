@@ -1,9 +1,10 @@
 import 'package:sutradharmobileapp/product/datalayer/service/allproduct_request.dart';
 
+import '../../../core/Api_response.dart';
 import '../model/response/product_response.dart';
 
 abstract class  allProductRepository {
-   Future<List<AllProductResponse>> getallProducts();
+  Future<Result<List<AllProductResponse>>> getAllProducts();
 }
 
 @override
@@ -13,7 +14,12 @@ class allProductRepositoryImpl implements allProductRepository {
   allProductRepositoryImpl(this.remote);
 
   @override
-  Future<List<AllProductResponse>> getallProducts() {
-    return remote.getAllProducts();
+  Future<Result<List<AllProductResponse>>> getAllProducts() async{
+    try {
+      List<AllProductResponse> response = await remote.getAllProducts();
+      return Success(response);
+    } catch (error) {
+      return Failure(error.toString());
+    }
   }
 }

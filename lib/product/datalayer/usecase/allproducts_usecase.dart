@@ -1,5 +1,6 @@
 import 'package:sutradharmobileapp/product/datalayer/model/response/product_response.dart';
 
+import '../../../core/Api_response.dart';
 import '../repository/allproduct_repository.dart';
 
 class GetAllProductsUseCase {
@@ -7,7 +8,7 @@ class GetAllProductsUseCase {
 
   GetAllProductsUseCase(this.repository);
 
-  Future<List<AllProductResponse>> execute() {
-    return repository.getallProducts();
+  Future<Result<List<AllProductResponse>>>  execute() {
+    return repository.getAllProducts();
   }
 }

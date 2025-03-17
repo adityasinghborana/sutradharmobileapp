@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       initialRoute:
-          AppRoutes.splashScreen, // Set splash screen as the initialroute
+          AppRoutes.home, // Set splash screen as the initialroute
       getPages: AppRoutes.routes,
     );
   }
