@@ -3,7 +3,7 @@ import 'package:sutradharmobileapp/product/datalayer/service/allproduct_request.
 import '../../../core/Api_response.dart';
 import '../model/response/product_response.dart';
 
-abstract class  allProductRepository {
+abstract class allProductRepository {
   Future<Result<List<AllProductResponse>>> getAllProducts();
 }
 
@@ -14,7 +14,7 @@ class allProductRepositoryImpl implements allProductRepository {
   allProductRepositoryImpl(this.remote);
 
   @override
-  Future<Result<List<AllProductResponse>>> getAllProducts() async{
+  Future<Result<List<AllProductResponse>>> getAllProducts() async {
     try {
       List<AllProductResponse> response = await remote.getAllProducts();
       return Success(response);

@@ -28,8 +28,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute:
-          AppRoutes.home, // Set splash screen as the initialroute
+      initialRoute: AppRoutes.home, // Set splash screen as the initialroute
       getPages: AppRoutes.routes,
     );
   }

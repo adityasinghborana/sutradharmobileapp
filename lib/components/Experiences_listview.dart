@@ -15,17 +15,17 @@ class ProductListview extends StatelessWidget {
       child: Obx(
         () => ListView.builder(
           scrollDirection: Axis.horizontal,
-          itemCount: homePageController.experiences.length,
+          itemCount: homePageController.productList.length,
           itemBuilder: (context, index) {
             return InkWell(
                 onTap: () {
                   Get.toNamed(AppRoutes.productdetails);
                 },
                 child: ExperiencesCard(
-                  title: homePageController.experiences[index].name,
+                  title: homePageController.productList[index].name,
                   imagePath:
-                      homePageController.experiences[index].images[0].src,
-                  price: homePageController.experiences[index].price,
+                      homePageController.productList[index].images[0].src,
+                  price: homePageController.productList[index].price,
                 ));
           },
         ),
